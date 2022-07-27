@@ -1,8 +1,40 @@
 body {
-  padding: 50px;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/208/165/148/cats-cat-heterochromia-hood-hoodie-hd-wallpaper-thumb.jpg");
+  padding: 15px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-size:100%;
+  color: white;
+  
 }
 
 a {
   color: #00B7FF;
+}
+
+#login {
+ 
+  text-align: center;
+  padding: 10px;
+  font-size: 22px;
+}
+#signup {
+ 
+  text-align: center;
+  padding: 10px;
+  font-size: 22px;
+}
+#main {
+ 
+  text-align: center;
+  padding: 10px;
+}
+#private {
+ 
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  width: 25%;
 }
