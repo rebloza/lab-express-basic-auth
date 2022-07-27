@@ -39,14 +39,8 @@ router.post("/signup", async (req, res, next) => {
       return; 
     } 
 
-    // const foundUserByUsername = await User.findOne({ username })
-    // if (foundUserByUsername !== null) {
-    //   res.render("auth/signup.hbs", {
-    //     errorMessage: "el nombre ya se registro"
-    //   })
-    //   return; 
-    // } 
-    //--------  sifar la contraseña ---------
+   
+    //--------  cifar la contraseña ---------
     const salt = await bcrypt.genSalt(8)
     const hashedPassword = await bcrypt.hash(password, salt)
     
