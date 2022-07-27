@@ -4,8 +4,8 @@ function isLoggedIn(req, res, next){
     }else {
         next()
     }
-    
-
 }
+
+
 
 module.exports = isLoggedIn

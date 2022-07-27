@@ -6,5 +6,8 @@ router.get("/main", isLoggedIn, (req, res , next ) => {
 })
 
 router.get("/private", isLoggedIn, (req, res, next ) => {
-    res.render("porfile/private.hbs")
+    res.render("profile/private.hbs")
 })
+
+
+module.exports = router
